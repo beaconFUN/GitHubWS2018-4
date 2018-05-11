@@ -10,3 +10,7 @@ void draw() {
   text("Hello world", width/2, height/2 );
   text("2018", width/2, height/5);
 }
+
+void mousePressed() {
+  ellipse(mouseX, mouseY, 20, 20);
+}
