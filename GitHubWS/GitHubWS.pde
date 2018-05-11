@@ -1,6 +1,7 @@
 void setup() {
   size(400, 400);
-  background(0);
+
+  background(255);
 }
 
 void draw() {
@@ -14,3 +15,4 @@ void draw() {
 void mousePressed() {
   ellipse(mouseX, mouseY, 20, 20);
 }
+
