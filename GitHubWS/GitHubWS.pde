@@ -1,7 +1,5 @@
 void setup() {
   size(400, 400);
-  background(0);
-}
 
 void draw() {
   textAlign(CENTER);
@@ -12,5 +10,10 @@ void draw() {
   text("YoshitoOoyama", width/2, height/1.5);
   text("TomokaHayashi", width/2, height/2.5);
   text("YutoMori", width/2, height/3);
-
+  text("2018", width/2, height/5);
 }
+
+void mousePressed() {
+  ellipse(mouseX, mouseY, 20, 20);
+}
+
