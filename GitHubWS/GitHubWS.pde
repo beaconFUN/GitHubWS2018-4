@@ -1,5 +1,7 @@
 void setup() {
   size(400, 400);
+  background(255);
+}
 
 void draw() {
   textAlign(CENTER);
@@ -16,4 +18,3 @@ void draw() {
 void mousePressed() {
   ellipse(mouseX, mouseY, 20, 20);
 }
-
